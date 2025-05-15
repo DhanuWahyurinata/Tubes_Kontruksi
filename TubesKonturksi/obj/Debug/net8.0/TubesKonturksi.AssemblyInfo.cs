@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TubesKonturksi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82dd7d2c24ca4c881e1f07244d90cd81d84b7330")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3a4a7b77ddba7250b47fc09d5f94eff70c9c4bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("TubesKonturksi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TubesKonturksi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
