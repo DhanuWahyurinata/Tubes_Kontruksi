@@ -1,0 +1,14 @@
+C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\obj\Debug\net8.0\TubesKonturksi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\obj\Debug\net8.0\TubesKonturksi.AssemblyInfoInputs.cache
+C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\obj\Debug\net8.0\TubesKonturksi.AssemblyInfo.cs
+C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\obj\Debug\net8.0\TubesKonturksi.csproj.CoreCompileInputs.cache
+C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\bin\Debug\net8.0\TubesKonturksi.exe
+C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\bin\Debug\net8.0\TubesKonturksi.deps.json
+C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\bin\Debug\net8.0\TubesKonturksi.runtimeconfig.json
+C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\bin\Debug\net8.0\TubesKonturksi.dll
+C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\bin\Debug\net8.0\TubesKonturksi.pdb
+C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\obj\Debug\net8.0\TubesKonturksi.dll
+C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\obj\Debug\net8.0\refint\TubesKonturksi.dll
+C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\obj\Debug\net8.0\TubesKonturksi.pdb
+C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\obj\Debug\net8.0\TubesKonturksi.genruntimeconfig.cache
+C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\obj\Debug\net8.0\ref\TubesKonturksi.dll
