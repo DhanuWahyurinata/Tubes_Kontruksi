@@ -8,7 +8,7 @@ class Program
 
     static void Main(string[] args)
     {
-        // Muat data dari file saat startup
+
         if (File.Exists(filePath))
         {
             daftarTugas = FileHandler.Muat(filePath);
