@@ -6,9 +6,18 @@ public class Tugas
     public string Deskripsi { get; set; } = "";
     public bool Selesai { get; set; } = false;
 
+    //public void Validasi()
+    //{
+    //    Debug.Assert(Id > 0, "ID harus positif");
+    //    Debug.Assert(!string.IsNullOrWhiteSpace(Deskripsi), "Deskripsi tidak boleh kosong");
+    //}
     public void Validasi()
     {
-        Debug.Assert(Id > 0, "ID harus positif");
-        Debug.Assert(!string.IsNullOrWhiteSpace(Deskripsi), "Deskripsi tidak boleh kosong");
+        if (Id <= 0)
+            throw new InvalidOperationException("ID harus positif");
+
+        if (string.IsNullOrWhiteSpace(Deskripsi))
+            throw new InvalidOperationException("Deskripsi tidak boleh kosong");
     }
+
 }
