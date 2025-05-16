@@ -11,7 +11,7 @@ public class FileHandlerTests
     private string testFilePath = "test_tugas.json";
 
     [TestCleanup]
-    public void Cleanup()
+    public void Cleanup() //untuk membersihkan atau mereset file json
     {
         if (File.Exists(testFilePath))
             File.Delete(testFilePath);
@@ -41,6 +41,22 @@ public class FileHandlerTests
         Assert.AreEqual("Tugas B", hasil[1].Deskripsi);
     }
 
+    //[TestMethod]
+    //[ExpectedException(typeof(AssertionException))]
+    //public void Simpan_PathKosong_AssertFailure()
+    //{
+    //    var tugasList = new List<Tugas> { new Tugas { Id = 1, Deskripsi = "Tes" } };
+    //    FileHandler.Simpan("", tugasList);
+    //}
+
+    [TestMethod]
+    [ExpectedException(typeof(ArgumentException))]
+    public void Simpan_PathKosong_ThrowArgumentException()
+    {
+        var tugasList = new List<Tugas> { new Tugas { Id = 1, Deskripsi = "Tes" } };
+        FileHandler.Simpan("", tugasList);
+    }
+
     [TestMethod]
     public void Muat_MengembalikanListTugasValid()
     {
@@ -60,22 +76,6 @@ public class FileHandlerTests
         Assert.AreEqual(1, hasil[0].Id);
         Assert.AreEqual("Tugas X", hasil[0].Deskripsi);
         Assert.IsFalse(hasil[0].Selesai);
-    }
-
-    //[TestMethod]
-    //[ExpectedException(typeof(AssertionException))]
-    //public void Simpan_PathKosong_AssertFailure()
-    //{
-    //    var tugasList = new List<Tugas> { new Tugas { Id = 1, Deskripsi = "Tes" } };
-    //    FileHandler.Simpan("", tugasList);
-    //}
-
-    [TestMethod]
-    [ExpectedException(typeof(ArgumentException))]
-    public void Simpan_PathKosong_ThrowArgumentException()
-    {
-        var tugasList = new List<Tugas> { new Tugas { Id = 1, Deskripsi = "Tes" } };
-        FileHandler.Simpan("", tugasList);
     }
 
     //[TestMethod]
