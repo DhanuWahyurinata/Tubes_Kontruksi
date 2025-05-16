@@ -12,3 +12,11 @@ C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\obj\Debug\net8.0\refin
 C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\obj\Debug\net8.0\TubesKonturksi.pdb
 C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\obj\Debug\net8.0\TubesKonturksi.genruntimeconfig.cache
 C:\Users\dhanu\source\repos\TubesKonturksi\TubesKonturksi\obj\Debug\net8.0\ref\TubesKonturksi.dll
+A:\Semester 6\Tubes_Kontruksi\TubesKonturksi\obj\Debug\net8.0\TubesKonturksi.GeneratedMSBuildEditorConfig.editorconfig
+A:\Semester 6\Tubes_Kontruksi\TubesKonturksi\obj\Debug\net8.0\TubesKonturksi.AssemblyInfoInputs.cache
+A:\Semester 6\Tubes_Kontruksi\TubesKonturksi\obj\Debug\net8.0\TubesKonturksi.AssemblyInfo.cs
+A:\Semester 6\Tubes_Kontruksi\TubesKonturksi\obj\Debug\net8.0\TubesKonturksi.csproj.CoreCompileInputs.cache
+A:\Semester 6\Tubes_Kontruksi\TubesKonturksi\obj\Debug\net8.0\TubesKonturksi.sourcelink.json
+A:\Semester 6\Tubes_Kontruksi\TubesKonturksi\obj\Debug\net8.0\TubesKonturksi.dll
+A:\Semester 6\Tubes_Kontruksi\TubesKonturksi\obj\Debug\net8.0\refint\TubesKonturksi.dll
+A:\Semester 6\Tubes_Kontruksi\TubesKonturksi\obj\Debug\net8.0\TubesKonturksi.pdb

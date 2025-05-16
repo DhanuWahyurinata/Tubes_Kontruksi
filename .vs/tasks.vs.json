@@ -1,0 +1,20 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Tubes_Kontruksi",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-Xunit",
+      "appliesTo": "XUnitTesting/Xunit.cs",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-Xunit",
+      "appliesTo": "XUnitTesting/Xunit.cs",
+      "type": "launch"
+    }
+  ]
+}
