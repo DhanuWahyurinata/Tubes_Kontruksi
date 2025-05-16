@@ -1,4 +1,8 @@
-﻿using TubesKonstruksi;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using TubesKonturksi;
 
 public static class HapusTugas
 {
@@ -7,7 +11,7 @@ public static class HapusTugas
         // Precondition
         Debug.Assert(daftar != null, "Daftar tugas tidak boleh null.");
 
-        if (daftar.Count == 0)
+        if (!daftar.Any())
         {
             Console.WriteLine("Daftar tugas kosong.");
             return;
@@ -19,29 +23,35 @@ public static class HapusTugas
             Console.WriteLine($"[{t.Id}] {t.Deskripsi} ({(t.Selesai ? "Selesai" : "Belum")})");
         }
 
-        Console.Write("\nMasukkan ID tugas yang ingin dihapus (pisahkan dengan spasi): ");
+        Console.Write("\nMasukkan ID tugas yang ingin dihapus (contoh: 1 2 3): ");
         string? input = Console.ReadLine();
+
         if (string.IsNullOrWhiteSpace(input))
         {
             Console.WriteLine("Tidak ada ID yang dimasukkan.");
             return;
         }
 
-        var idStrings = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-        var ids = new List<int>();
-
-        foreach (var s in idStrings)
-        {
-            if (int.TryParse(s, out int id))
-                ids.Add(id);
-        }
+        // Parsing dan validasi ID
+        var ids = input.Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                       .Select(s => int.TryParse(s, out var id) ? id : (int?)null)
+                       .Where(id => id.HasValue)
+                       .Select(id => id!.Value)
+                       .Distinct()
+                       .ToList();
 
         var tugasDihapus = daftar.Where(t => ids.Contains(t.Id)).ToList();
+        var idTidakDitemukan = ids.Except(tugasDihapus.Select(t => t.Id));
 
-        if (tugasDihapus.Count == 0)
+        if (!tugasDihapus.Any())
         {
             Console.WriteLine("Tidak ada ID yang cocok.");
             return;
+        }
+
+        if (idTidakDitemukan.Any())
+        {
+            Console.WriteLine("ID yang tidak ditemukan: " + string.Join(", ", idTidakDitemukan));
         }
 
         Console.WriteLine("\nTugas berikut akan dihapus:");
@@ -55,10 +65,7 @@ public static class HapusTugas
 
         if (konfirmasi == "y")
         {
-            foreach (var t in tugasDihapus)
-            {
-                daftar.Remove(t);
-            }
+            daftar.RemoveAll(t => ids.Contains(t.Id));
             Console.WriteLine($"{tugasDihapus.Count} tugas berhasil dihapus.");
         }
         else
