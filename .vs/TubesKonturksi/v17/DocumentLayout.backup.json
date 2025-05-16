@@ -11,20 +11,16 @@
       "RelativeMoniker": "D:0:0:{8C5177FE-A1C1-41C6-848F-671A9C30FF27}|TubesKonturksi\\TubesKonturksi.csproj|solutionrelative:tubeskonturksi\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71EDC9BA-3EEC-4DF0-AA09-C56ABAFAC8B9}|TestProject1\\TestProject1.csproj|d:\\kuliah\\konstruksi perangkat lunak\\tubes_kontruksi\\testproject1\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71EDC9BA-3EEC-4DF0-AA09-C56ABAFAC8B9}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C5177FE-A1C1-41C6-848F-671A9C30FF27}|TubesKonturksi\\TubesKonturksi.csproj|d:\\kuliah\\konstruksi perangkat lunak\\tubes_kontruksi\\tubeskonturksi\\tugas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C5177FE-A1C1-41C6-848F-671A9C30FF27}|TubesKonturksi\\TubesKonturksi.csproj|solutionrelative:tubeskonturksi\\tugas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C5177FE-A1C1-41C6-848F-671A9C30FF27}|TubesKonturksi\\TubesKonturksi.csproj|d:\\kuliah\\konstruksi perangkat lunak\\tubes_kontruksi\\tubeskonturksi\\tubeskonturksi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{8C5177FE-A1C1-41C6-848F-671A9C30FF27}|TubesKonturksi\\TubesKonturksi.csproj|solutionrelative:tubeskonturksi\\tubeskonturksi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C5177FE-A1C1-41C6-848F-671A9C30FF27}|TubesKonturksi\\TubesKonturksi.csproj|d:\\kuliah\\konstruksi perangkat lunak\\tubes_kontruksi\\tubeskonturksi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C5177FE-A1C1-41C6-848F-671A9C30FF27}|TubesKonturksi\\TubesKonturksi.csproj|solutionrelative:tubeskonturksi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C5177FE-A1C1-41C6-848F-671A9C30FF27}|TubesKonturksi\\TubesKonturksi.csproj|d:\\kuliah\\konstruksi perangkat lunak\\tubes_kontruksi\\tubeskonturksi\\tubeskonturksi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{8C5177FE-A1C1-41C6-848F-671A9C30FF27}|TubesKonturksi\\TubesKonturksi.csproj|solutionrelative:tubeskonturksi\\tubeskonturksi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{8C5177FE-A1C1-41C6-848F-671A9C30FF27}|TubesKonturksi\\TubesKonturksi.csproj|d:\\kuliah\\konstruksi perangkat lunak\\tubes_kontruksi\\tubeskonturksi\\tugas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5177FE-A1C1-41C6-848F-671A9C30FF27}|TubesKonturksi\\TubesKonturksi.csproj|solutionrelative:tubeskonturksi\\tugas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,14 +40,14 @@
               "RelativeDocumentMoniker": "TestProject1\\Test1.cs",
               "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\Tubes_Kontruksi\\TestProject1\\Test1.cs",
               "RelativeToolTip": "TestProject1\\Test1.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T12:30:50.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Tugas.cs",
               "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\Tubes_Kontruksi\\TubesKonturksi\\Tugas.cs",
               "RelativeDocumentMoniker": "TubesKonturksi\\Tugas.cs",
@@ -59,8 +55,7 @@
               "RelativeToolTip": "TubesKonturksi\\Tugas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T12:35:16.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T12:35:16.125Z"
             },
             {
               "$type": "Document",
@@ -70,7 +65,7 @@
               "RelativeDocumentMoniker": "TubesKonturksi\\FileHandler.cs",
               "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\Tubes_Kontruksi\\TubesKonturksi\\FileHandler.cs",
               "RelativeToolTip": "TubesKonturksi\\FileHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T12:03:58.641Z",
               "EditorCaption": ""
@@ -78,30 +73,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MSTestSettings.cs",
-              "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\Tubes_Kontruksi\\TestProject1\\MSTestSettings.cs",
-              "RelativeDocumentMoniker": "TestProject1\\MSTestSettings.cs",
-              "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\Tubes_Kontruksi\\TestProject1\\MSTestSettings.cs",
-              "RelativeToolTip": "TestProject1\\MSTestSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T11:48:40.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "TubesKonturksi",
               "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\Tubes_Kontruksi\\TubesKonturksi\\TubesKonturksi.csproj",
               "RelativeDocumentMoniker": "TubesKonturksi\\TubesKonturksi.csproj",
               "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\Tubes_Kontruksi\\TubesKonturksi\\TubesKonturksi.csproj",
               "RelativeToolTip": "TubesKonturksi\\TubesKonturksi.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-15T11:47:47.344Z"
+              "WhenOpened": "2025-05-15T11:47:47.344Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\Tubes_Kontruksi\\TubesKonturksi\\Program.cs",
               "RelativeDocumentMoniker": "TubesKonturksi\\Program.cs",
