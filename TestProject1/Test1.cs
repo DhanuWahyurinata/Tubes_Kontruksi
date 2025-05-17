@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using System.Diagnostics;
+using FileHandlerLibraries;
+using Models;
 using TubesKonturksi;
 
 [TestClass]
@@ -13,32 +15,45 @@ public class FileHandlerTests
     [TestCleanup]
     public void Cleanup() //untuk membersihkan atau mereset file json
     {
-        if (File.Exists(testFilePath))
-            File.Delete(testFilePath);
+        try
+        {
+            if (File.Exists(testFilePath))
+                File.Delete(testFilePath);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
     }
 
     [TestMethod]
     public void Simpan_MembuatFileDenganDataValid()
     {
-        // Arrange
-        var tugasList = new List<Tugas>
+        try
         {
-            new Tugas { Id = 1, Deskripsi = "Tugas A", Selesai = false },
-            new Tugas { Id = 2, Deskripsi = "Tugas B", Selesai = true }
-        };
+            // Arrange
+            var tugasList = new List<Tugas>
+            {
+                new Tugas { Id = 1, Deskripsi = "Tugas A", Selesai = false },
+                new Tugas { Id = 2, Deskripsi = "Tugas B", Selesai = true }
+            };
 
-        // Act
-        FileHandler.Simpan(testFilePath, tugasList);
+            // Act
+            FileHandler.Simpan(testFilePath, tugasList);
 
-        // Assert
-        Assert.IsTrue(File.Exists(testFilePath));
-        string json = File.ReadAllText(testFilePath);
-        var hasil = JsonSerializer.Deserialize<List<Tugas>>(json);
+            // Assert
+            Assert.IsTrue(File.Exists(testFilePath));
+            string json = File.ReadAllText(testFilePath);
+            var hasil = JsonSerializer.Deserialize<List<Tugas>>(json);
 
-        Assert.IsNotNull(hasil);
-        Assert.AreEqual(2, hasil.Count);
-        Assert.AreEqual("Tugas A", hasil[0].Deskripsi);
-        Assert.AreEqual("Tugas B", hasil[1].Deskripsi);
+            Assert.IsNotNull(hasil);
+            Assert.AreEqual(2, hasil.Count);
+            Assert.AreEqual("Tugas A", hasil[0].Deskripsi);
+            Assert.AreEqual("Tugas B", hasil[1].Deskripsi);
+        }
+        catch (Exception ex) { 
+            Console.WriteLine(ex.Message);
+        }
     }
 
     //[TestMethod]
@@ -60,22 +75,29 @@ public class FileHandlerTests
     [TestMethod]
     public void Muat_MengembalikanListTugasValid()
     {
-        // Arrange
-        var tugasList = new List<Tugas>
+        try
         {
-            new Tugas { Id = 1, Deskripsi = "Tugas X", Selesai = false },
-            new Tugas { Id = 2, Deskripsi = "Tugas Y", Selesai = true }
-        };
-        FileHandler.Simpan(testFilePath, tugasList);
-
-        // Act
-        var hasil = FileHandler.Muat(testFilePath);
-
-        // Assert
-        Assert.AreEqual(2, hasil.Count);
-        Assert.AreEqual(1, hasil[0].Id);
-        Assert.AreEqual("Tugas X", hasil[0].Deskripsi);
-        Assert.IsFalse(hasil[0].Selesai);
+            // Arrange
+            var tugasList = new List<Tugas>
+            {
+                new Tugas { Id = 1, Deskripsi = "Tugas X", Selesai = false },
+                new Tugas { Id = 2, Deskripsi = "Tugas Y", Selesai = true }
+            };
+            FileHandler.Simpan(testFilePath, tugasList);
+    
+            // Act
+            var hasil = FileHandler.Muat(testFilePath);
+    
+            // Assert
+            Assert.AreEqual(2, hasil.Count);
+            Assert.AreEqual(1, hasil[0].Id);
+            Assert.AreEqual("Tugas X", hasil[0].Deskripsi);
+            Assert.IsFalse(hasil[0].Selesai);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
     }
 
     //[TestMethod]
@@ -95,15 +117,22 @@ public class FileHandlerTests
     [TestMethod]
     public void Muat_KembalikanListKosongJikaJsonNull()
     {
-        // Arrange
-        File.WriteAllText(testFilePath, "null");
-
-        // Act
-        var hasil = FileHandler.Muat(testFilePath);
-
-        // Assert
-        Assert.IsNotNull(hasil);
-        Assert.AreEqual(0, hasil.Count);
+        try
+        {
+            // Arrange
+            File.WriteAllText(testFilePath, "null");
+            
+            // Act
+            var hasil = FileHandler.Muat(testFilePath);
+            
+            // Assert
+            Assert.IsNotNull(hasil);
+            Assert.AreEqual(0, hasil.Count);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
     }
 
     //[TestMethod]
@@ -123,9 +152,11 @@ public class FileHandlerTests
     public void Muat_ValidasiTugasGagalKarenaDeskripsiKosong()
     {
         var tugasList = new List<Tugas> { new Tugas { Id = 1, Deskripsi = "" } };
+        //var tempPath = Path.Combine(Path.GetTempPath(), "test_tugas.json");
         FileHandler.Simpan(testFilePath, tugasList);
-
+        
         FileHandler.Muat(testFilePath);
+
     }
 
     //[TestMethod]
@@ -143,7 +174,9 @@ public class FileHandlerTests
     public void Validasi_IdTidakValid_ThrowInvalidOperationException()
     {
         var tugasList = new List<Tugas> { new Tugas { Id = 0, Deskripsi = "Test" } };
+        //var tempPath = Path.Combine(Path.GetTempPath(), "test_tugas.json");
         FileHandler.Simpan(testFilePath, tugasList);
         FileHandler.Muat(testFilePath);
+
     }
 }

@@ -8,8 +8,10 @@
     ".NETCoreApp,Version=v8.0": {
       "TestProject1/1.0.0": {
         "dependencies": {
+          "FileHandlerLibraries": "1.0.0",
           "MSTest": "3.6.4",
           "Microsoft.NET.Test.Sdk": "17.13.0",
+          "Models": "1.0.0",
           "TubesKonturksi": "1.0.0",
           "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions": "14.0.0.0"
         },
@@ -583,7 +585,30 @@
       },
       "System.Diagnostics.DiagnosticSource/5.0.0": {},
       "System.Reflection.Metadata/1.6.0": {},
+      "FileHandlerLibraries/1.0.0": {
+        "dependencies": {
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "FileHandlerLibraries.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Models/1.0.0": {
+        "runtime": {
+          "Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "TubesKonturksi/1.0.0": {
+        "dependencies": {
+          "FileHandlerLibraries": "1.0.0",
+          "Models": "1.0.0"
+        },
         "runtime": {
           "TubesKonturksi.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -725,6 +750,16 @@
       "sha512": "sha512-COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
       "path": "system.reflection.metadata/1.6.0",
       "hashPath": "system.reflection.metadata.1.6.0.nupkg.sha512"
+    },
+    "FileHandlerLibraries/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "TubesKonturksi/1.0.0": {
       "type": "project",

@@ -13,6 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FileHandler\FileHandlerLibraries.csproj" />
+    <ProjectReference Include="..\Models\Models.csproj" />
     <ProjectReference Include="..\TubesKonturksi\TubesKonturksi.csproj" />
   </ItemGroup>
 
