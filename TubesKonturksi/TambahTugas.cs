@@ -1,5 +1,5 @@
 ﻿using System.Diagnostics;
-
+using Models;
 public static class TambahTugas
 {
     public static Tugas BuatTugas(List<Tugas> daftar)

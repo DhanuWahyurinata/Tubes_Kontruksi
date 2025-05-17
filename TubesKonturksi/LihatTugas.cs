@@ -1,5 +1,5 @@
 ﻿using System.Diagnostics;
-
+using Models;
 public static class LihatTugas
 {
     public static void Tampilkan(List<Tugas> daftar)

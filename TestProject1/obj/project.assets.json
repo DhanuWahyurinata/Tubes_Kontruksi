@@ -685,9 +685,22 @@
           }
         }
       },
+      "FileHandlerLibraries/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/FileHandlerLibraries.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileHandlerLibraries.dll": {}
+        }
+      },
       "TubesKonturksi/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FileHandlerLibraries": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/TubesKonturksi.dll": {}
         },
@@ -1653,6 +1666,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "FileHandlerLibraries/1.0.0": {
+      "type": "project",
+      "path": "../FileHandler/FileHandlerLibraries.csproj",
+      "msbuildProject": "../FileHandler/FileHandlerLibraries.csproj"
     },
     "TubesKonturksi/1.0.0": {
       "type": "project",

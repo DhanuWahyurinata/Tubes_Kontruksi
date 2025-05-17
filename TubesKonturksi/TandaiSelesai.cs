@@ -1,5 +1,5 @@
 ﻿using System.Diagnostics;
-
+using Models;
 public static class TandaiSelesai
 {
     public static bool UbahStatus<T>(List<Tugas> daftar, T id)

@@ -1,5 +1,5 @@
 ﻿using System.Diagnostics;
-
+using Models;
 public static class HapusTugas
 {
     public static void HapusDenganPilihID(List<Tugas> daftar)
