@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
-using System.Diagnostics;
 using FileHandlerLibraries;
 using Models;
 using TubesKonturksi;
@@ -10,59 +9,46 @@ using TubesKonturksi;
 [TestClass]
 public class FileHandlerTests
 {
-    private string testFilePath = "test_tugas.json";
+    private List<string> tempFiles = new();
+
+    private string GetTempFilePath()
+    {
+        var path = Path.Combine(Path.GetTempPath(), $"test_{Guid.NewGuid()}.json");
+        tempFiles.Add(path);
+        return path;
+    }
 
     [TestCleanup]
-    public void Cleanup() //untuk membersihkan atau mereset file json
+    public void Cleanup()
     {
-        try
+        foreach (var file in tempFiles)
         {
-            if (File.Exists(testFilePath))
-                File.Delete(testFilePath);
+            try { if (File.Exists(file)) File.Delete(file); } catch { /* ignore */ }
         }
-        catch (Exception ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
+        tempFiles.Clear();
     }
 
     [TestMethod]
     public void Simpan_MembuatFileDenganDataValid()
     {
-        try
+        var path = GetTempFilePath();
+        var tugasList = new List<Tugas>
         {
-            // Arrange
-            var tugasList = new List<Tugas>
-            {
-                new Tugas { Id = 1, Deskripsi = "Tugas A", Selesai = false },
-                new Tugas { Id = 2, Deskripsi = "Tugas B", Selesai = true }
-            };
+            new Tugas { Id = 1, Deskripsi = "Tugas A", Selesai = false },
+            new Tugas { Id = 2, Deskripsi = "Tugas B", Selesai = true }
+        };
 
-            // Act
-            FileHandler.Simpan(testFilePath, tugasList);
+        FileHandler.Simpan(path, tugasList);
 
-            // Assert
-            Assert.IsTrue(File.Exists(testFilePath));
-            string json = File.ReadAllText(testFilePath);
-            var hasil = JsonSerializer.Deserialize<List<Tugas>>(json);
+        Assert.IsTrue(File.Exists(path));
+        string json = File.ReadAllText(path);
+        var hasil = JsonSerializer.Deserialize<List<Tugas>>(json);
 
-            Assert.IsNotNull(hasil);
-            Assert.AreEqual(2, hasil.Count);
-            Assert.AreEqual("Tugas A", hasil[0].Deskripsi);
-            Assert.AreEqual("Tugas B", hasil[1].Deskripsi);
-        }
-        catch (Exception ex) { 
-            Console.WriteLine(ex.Message);
-        }
+        Assert.IsNotNull(hasil);
+        Assert.AreEqual(2, hasil.Count);
+        Assert.AreEqual("Tugas A", hasil[0].Deskripsi);
+        Assert.AreEqual("Tugas B", hasil[1].Deskripsi);
     }
-
-    //[TestMethod]
-    //[ExpectedException(typeof(AssertionException))]
-    //public void Simpan_PathKosong_AssertFailure()
-    //{
-    //    var tugasList = new List<Tugas> { new Tugas { Id = 1, Deskripsi = "Tes" } };
-    //    FileHandler.Simpan("", tugasList);
-    //}
 
     [TestMethod]
     [ExpectedException(typeof(ArgumentException))]
@@ -75,108 +61,59 @@ public class FileHandlerTests
     [TestMethod]
     public void Muat_MengembalikanListTugasValid()
     {
-        try
+        var path = GetTempFilePath();
+        var tugasList = new List<Tugas>
         {
-            // Arrange
-            var tugasList = new List<Tugas>
-            {
-                new Tugas { Id = 1, Deskripsi = "Tugas X", Selesai = false },
-                new Tugas { Id = 2, Deskripsi = "Tugas Y", Selesai = true }
-            };
-            FileHandler.Simpan(testFilePath, tugasList);
-    
-            // Act
-            var hasil = FileHandler.Muat(testFilePath);
-    
-            // Assert
-            Assert.AreEqual(2, hasil.Count);
-            Assert.AreEqual(1, hasil[0].Id);
-            Assert.AreEqual("Tugas X", hasil[0].Deskripsi);
-            Assert.IsFalse(hasil[0].Selesai);
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
-    }
+            new Tugas { Id = 1, Deskripsi = "Tugas X", Selesai = false },
+            new Tugas { Id = 2, Deskripsi = "Tugas Y", Selesai = true }
+        };
+        FileHandler.Simpan(path, tugasList);
 
-    //[TestMethod]
-    //[ExpectedException(typeof(AssertionException))]
-    //public void Muat_FileTidakAda_AssertFailure()
-    //{
-    //    FileHandler.Muat("file_tidak_ada.json");
-    //}
+        var hasil = FileHandler.Muat(path);
+
+        Assert.AreEqual(2, hasil.Count);
+        Assert.AreEqual(1, hasil[0].Id);
+        Assert.AreEqual("Tugas X", hasil[0].Deskripsi);
+        Assert.IsFalse(hasil[0].Selesai);
+    }
 
     [TestMethod]
     [ExpectedException(typeof(FileNotFoundException))]
     public void Muat_FileTidakAda_ThrowFileNotFoundException()
     {
-        FileHandler.Muat("tidak_ada.json");
+        var path = GetTempFilePath();
+        FileHandler.Muat(path); // File belum dibuat
     }
 
     [TestMethod]
     public void Muat_KembalikanListKosongJikaJsonNull()
     {
-        try
-        {
-            // Arrange
-            File.WriteAllText(testFilePath, "null");
-            
-            // Act
-            var hasil = FileHandler.Muat(testFilePath);
-            
-            // Assert
-            Assert.IsNotNull(hasil);
-            Assert.AreEqual(0, hasil.Count);
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
+        var path = GetTempFilePath();
+        File.WriteAllText(path, "null");
+
+        var hasil = FileHandler.Muat(path);
+
+        Assert.IsNotNull(hasil);
+        Assert.AreEqual(0, hasil.Count);
     }
-
-    //[TestMethod]
-    //[ExpectedException(typeof(AssertionException))]
-    //public void Muat_ValidasiTugasGagalKarenaDeskripsiKosong()
-    //{
-    //    // Arrange
-    //    var tugasList = new List<Tugas> { new Tugas { Id = 1, Deskripsi = "" } };
-    //    FileHandler.Simpan(testFilePath, tugasList);
-
-    //    // Act
-    //    FileHandler.Muat(testFilePath); // Akan panggil Validasi() dan gagal
-    //}
 
     [TestMethod]
     [ExpectedException(typeof(InvalidOperationException))]
     public void Muat_ValidasiTugasGagalKarenaDeskripsiKosong()
     {
+        var path = GetTempFilePath();
         var tugasList = new List<Tugas> { new Tugas { Id = 1, Deskripsi = "" } };
-        //var tempPath = Path.Combine(Path.GetTempPath(), "test_tugas.json");
-        FileHandler.Simpan(testFilePath, tugasList);
-        
-        FileHandler.Muat(testFilePath);
-
+        FileHandler.Simpan(path, tugasList);
+        FileHandler.Muat(path);
     }
-
-    //[TestMethod]
-    //[ExpectedException(typeof(AssertionException))]
-    //public void Muat_ValidasiTugasGagalKarenaIdNegatif()
-    //{
-    //    var tugasList = new List<Tugas> { new Tugas { Id = -1, Deskripsi = "Validasi ID" } };
-    //    FileHandler.Simpan(testFilePath, tugasList);
-
-    //    FileHandler.Muat(testFilePath); // Akan trigger Debug.Assert di Validasi
-    //}
 
     [TestMethod]
     [ExpectedException(typeof(InvalidOperationException))]
     public void Validasi_IdTidakValid_ThrowInvalidOperationException()
     {
+        var path = GetTempFilePath();
         var tugasList = new List<Tugas> { new Tugas { Id = 0, Deskripsi = "Test" } };
-        //var tempPath = Path.Combine(Path.GetTempPath(), "test_tugas.json");
-        FileHandler.Simpan(testFilePath, tugasList);
-        FileHandler.Muat(testFilePath);
-
+        FileHandler.Simpan(path, tugasList);
+        FileHandler.Muat(path);
     }
 }
