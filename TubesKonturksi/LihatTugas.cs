@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using Models;
 public static class LihatTugas
 {
     // Table untuk mapping status ke teks

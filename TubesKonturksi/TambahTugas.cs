@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-
+using Models;
 public static class TambahTugas
 {
     public static Tugas BuatTugas(List<Tugas> daftar)
