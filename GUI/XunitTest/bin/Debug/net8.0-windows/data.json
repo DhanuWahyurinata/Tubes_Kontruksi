@@ -1,0 +1,36 @@
+{
+  "Users": [
+    {
+      "Username": "guru1",
+      "Password": "1234",
+      "Nama": "Bu Guru",
+      "Role": "Guru"
+    },
+    {
+      "Username": "siswa1",
+      "Password": "1234",
+      "Nama": "Andi",
+      "Role": "Siswa"
+    },
+    {
+      "Username": "testuser",
+      "Password": "pass",
+      "Nama": "Test User",
+      "Role": "Siswa"
+    },
+    {
+      "Username": "updateuser",
+      "Password": "999",
+      "Nama": "Updated",
+      "Role": "Guru"
+    },
+    {
+      "Username": "existinguser",
+      "Password": "123",
+      "Nama": "Ada",
+      "Role": "Siswa"
+    }
+  ],
+  "DaftarTugas": [],
+  "KumpulanTugas": []
+}
