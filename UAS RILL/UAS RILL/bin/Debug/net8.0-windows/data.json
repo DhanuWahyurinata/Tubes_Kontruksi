@@ -1,0 +1,104 @@
+{
+  "Users": [
+    {
+      "Username": "guru1",
+      "Password": "1234",
+      "Nama": "Pak Budi",
+      "Role": "Guru"
+    },
+    {
+      "Username": "siswa1",
+      "Password": "1234",
+      "Nama": "Wahyurinata",
+      "Role": "Guru"
+    },
+    {
+      "Username": "admin",
+      "Password": "admin123",
+      "Nama": "Administrator",
+      "Role": "Admin"
+    },
+    {
+      "Username": "wkwkwkw",
+      "Password": "danu12345",
+      "Nama": "Danu",
+      "Role": "Siswa"
+    },
+    {
+      "Username": "guru2",
+      "Password": "87654321",
+      "Nama": "BudiGaming",
+      "Role": "Guru"
+    },
+    {
+      "Username": "Wahyu",
+      "Password": "87654321",
+      "Nama": "danuRenata",
+      "Role": "Siswa"
+    }
+  ],
+  "DaftarTugas": [
+    {
+      "Id": "e51d0f11-d1f7-4725-8a4e-ef91ab8d7286",
+      "Judul": "Tugas Informatika",
+      "Deskripsi": "Dikerjakan , dikumulkan pdf",
+      "TanggalDeadline": "2025-06-08T01:44:36.936"
+    },
+    {
+      "Id": "2385f7c7-5b72-4f0f-9880-77997e5384b3",
+      "Judul": "Tugas Cuy",
+      "Deskripsi": "Jangan Nyoonto",
+      "TanggalDeadline": "2025-06-15T03:25:04.343"
+    },
+    {
+      "Id": "a3911188-5977-4465-967e-49a29fb4261c",
+      "Judul": "Tugas Aja",
+      "Deskripsi": "wkwkwk",
+      "TanggalDeadline": "2025-06-20T16:38:07.138"
+    }
+  ],
+  "KumpulanTugas": [
+    {
+      "TugasId": "e51d0f11-d1f7-4725-8a4e-ef91ab8d7286",
+      "UsernameSiswa": "siswa1",
+      "FilePath": "C:\\Users\\dhanu\\OneDrive\\Documents\\Tugas Pendahuluan Modul 14.pdf",
+      "TanggalKumpul": "2025-06-17T01:45:59.6425296+07:00",
+      "Status": null
+    },
+    {
+      "TugasId": "2385f7c7-5b72-4f0f-9880-77997e5384b3",
+      "UsernameSiswa": "Wahyu",
+      "FilePath": "C:\\Users\\dhanu\\OneDrive\\Documents\\Tugas Jurnal Modul 14.pdf",
+      "TanggalKumpul": "2025-06-17T03:25:45.1792441+07:00",
+      "Status": null
+    },
+    {
+      "TugasId": "e51d0f11-d1f7-4725-8a4e-ef91ab8d7286",
+      "UsernameSiswa": "Wahyu",
+      "FilePath": "C:\\Users\\dhanu\\OneDrive\\Documents\\J - Meter.docx",
+      "TanggalKumpul": "2025-06-18T16:36:51.9940892+07:00",
+      "Status": "Terlambat"
+    },
+    {
+      "TugasId": "a3911188-5977-4465-967e-49a29fb4261c",
+      "UsernameSiswa": "Wahyu",
+      "FilePath": "C:\\Users\\dhanu\\OneDrive\\Documents\\Kelompok SD MUSIX.pdf",
+      "TanggalKumpul": "2025-06-18T16:38:56.1418626+07:00",
+      "Status": "Dikumpulkan"
+    },
+    {
+      "TugasId": "2385f7c7-5b72-4f0f-9880-77997e5384b3",
+      "UsernameSiswa": "Renata",
+      "FilePath": "C:\\Users\\dhanu\\OneDrive\\Documents\\Kelompok SD MUSIX.pdf",
+      "TanggalKumpul": "2025-06-18T16:40:09.7950779+07:00",
+      "Status": "Terlambat"
+    },
+    {
+      "TugasId": "a3911188-5977-4465-967e-49a29fb4261c",
+      "UsernameSiswa": "Renata",
+      "FilePath": "C:\\Users\\dhanu\\OneDrive\\Documents\\Laporan Performance Testing.pdf",
+      "TanggalKumpul": "2025-06-18T16:44:20.1633819+07:00",
+      "Status": "Dikumpulkan"
+    }
+  ]
+}
