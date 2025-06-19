@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
@@ -17,11 +19,18 @@ namespace TugasManager.Data
             public List<User> Users { get; set; } = new();
             public List<Tugas> DaftarTugas { get; set; } = new();
             public List<Submission> KumpulanTugas { get; set; } = new();
+
+            [ContractInvariantMethod]
+            private void ObjectInvariant()
+            {
+                Contract.Invariant(Users != null);
+                Contract.Invariant(DaftarTugas != null);
+                Contract.Invariant(KumpulanTugas != null);
+            }
         }
 
         private DatabaseData _data;
 
-        // Private constructor untuk mencegah instantiasi langsung
         private JsonDatabase()
         {
             if (File.Exists(DataFile))
@@ -36,9 +45,11 @@ namespace TugasManager.Data
                 _data.Users.Add(new User { Username = "siswa1", Password = "1234", Nama = "Andi", Role = "Siswa" });
                 Save();
             }
+
+            Contract.Assert(_data.Users != null && _data.DaftarTugas != null && _data.KumpulanTugas != null,
+                "Database gagal diinisialisasi.");
         }
 
-        // Property untuk mengakses instance singleton
         public static JsonDatabase Instance
         {
             get
@@ -59,22 +70,55 @@ namespace TugasManager.Data
 
         public void Save()
         {
+            Contract.Requires(_data != null, "Data tidak boleh null sebelum disimpan.");
+
             var json = JsonSerializer.Serialize(_data, new JsonSerializerOptions { WriteIndented = true });
             File.WriteAllText(DataFile, json);
         }
 
-        public List<User> Users => _data.Users;
-        public List<Tugas> DaftarTugas => _data.DaftarTugas;
-        public List<Submission> KumpulanTugas => _data.KumpulanTugas;
+        public List<User> Users
+        {
+            get
+            {
+                Contract.Ensures(Contract.Result<List<User>>() != null);
+                return _data.Users;
+            }
+        }
+
+        public List<Tugas> DaftarTugas
+        {
+            get
+            {
+                Contract.Ensures(Contract.Result<List<Tugas>>() != null);
+                return _data.DaftarTugas;
+            }
+        }
+
+        public List<Submission> KumpulanTugas
+        {
+            get
+            {
+                Contract.Ensures(Contract.Result<List<Submission>>() != null);
+                return _data.KumpulanTugas;
+            }
+        }
 
         public void AddUser(User user)
         {
+            Contract.Requires(user != null, "User tidak boleh null.");
+            Contract.Requires(!string.IsNullOrWhiteSpace(user.Username), "Username tidak boleh kosong.");
+            Contract.Ensures(UsernameExists(user.Username), "User gagal ditambahkan.");
+
             _data.Users.Add(user);
             Save();
         }
 
         public void UpdateUser(string oldUsername, User updatedUser)
         {
+            Contract.Requires(!string.IsNullOrWhiteSpace(oldUsername), "Username lama tidak boleh kosong.");
+            Contract.Requires(updatedUser != null, "Updated user tidak boleh null.");
+            Contract.Ensures(UsernameExists(updatedUser.Username), "User gagal diperbarui.");
+
             var index = _data.Users.FindIndex(u => u.Username == oldUsername);
             if (index != -1)
             {
@@ -85,6 +129,9 @@ namespace TugasManager.Data
 
         public void DeleteUser(string username)
         {
+            Contract.Requires(!string.IsNullOrWhiteSpace(username), "Username tidak boleh kosong.");
+            Contract.Ensures(!UsernameExists(username), "User gagal dihapus.");
+
             var userToRemove = _data.Users.FirstOrDefault(u => u.Username == username);
             if (userToRemove != null)
             {
@@ -95,12 +142,29 @@ namespace TugasManager.Data
 
         public User GetUserByUsername(string username)
         {
+            Contract.Requires(!string.IsNullOrWhiteSpace(username), "Username tidak boleh kosong.");
+
             return _data.Users.FirstOrDefault(u => u.Username == username);
         }
 
         public bool UsernameExists(string username)
         {
+            Contract.Requires(!string.IsNullOrWhiteSpace(username), "Username tidak boleh kosong.");
+            Contract.Ensures(!Contract.Result<bool>() || _data.Users.Any(u => u.Username == username),
+                "Data tidak konsisten: username seharusnya ada.");
+
             return _data.Users.Any(u => u.Username == username);
+        }
+
+        [ContractInvariantMethod]
+        private void ObjectInvariant()
+        {
+            Contract.Invariant(_data != null);
+            
+            Contract.Invariant(_data.Users != null);
+
+            Contract.Invariant(_data.DaftarTugas != null);
+            Contract.Invariant(_data.KumpulanTugas != null);
         }
     }
 }
