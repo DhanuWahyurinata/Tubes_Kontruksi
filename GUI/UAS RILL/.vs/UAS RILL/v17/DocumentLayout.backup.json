@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|d:\\kuliah\\konstruksi perangkat lunak\\uas rill\\uas rill\\uas rill\\forms\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|solutionrelative:uas rill\\forms\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|d:\\kuliah\\konstruksi perangkat lunak\\uas rill\\uas rill\\uas rill\\forms\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|solutionrelative:uas rill\\forms\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|d:\\kuliah\\konstruksi perangkat lunak\\uas rill\\uas rill\\uas rill\\forms\\teacherdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|solutionrelative:uas rill\\forms\\teacherdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40B10800-27A9-4C19-88AD-2B54A56E30DE}|adminTest\\adminTest.csproj|d:\\kuliah\\konstruksi perangkat lunak\\uas rill\\uas rill\\admintest\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40B10800-27A9-4C19-88AD-2B54A56E30DE}|adminTest\\adminTest.csproj|solutionrelative:admintest\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|d:\\kuliah\\konstruksi perangkat lunak\\uas rill\\uas rill\\uas rill\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|solutionrelative:uas rill\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|d:\\kuliah\\konstruksi perangkat lunak\\uas rill\\uas rill\\uas rill\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|solutionrelative:uas rill\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\uas rill\\forms\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|solutionrelative:uas rill\\forms\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\uas rill\\forms\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|solutionrelative:uas rill\\forms\\studentdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|d:\\kuliah\\konstruksi perangkat lunak\\uas rill\\uas rill\\uas rill\\data\\jsondatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|solutionrelative:uas rill\\data\\jsondatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|d:\\kuliah\\konstruksi perangkat lunak\\uas rill\\uas rill\\uas rill\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|solutionrelative:uas rill\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\uas rill\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|solutionrelative:uas rill\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|d:\\kuliah\\konstruksi perangkat lunak\\uas rill\\uas rill\\uas rill\\models\\submission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|solutionrelative:uas rill\\models\\submission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|d:\\kuliah\\konstruksi perangkat lunak\\uas rill\\uas rill\\uas rill\\models\\tugas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|solutionrelative:uas rill\\models\\tugas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\uas rill\\forms\\teacherdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{692F99F5-82D4-4A8D-BB52-B8E1B31BF6C8}|UAS RILL\\UAS RILL.csproj|solutionrelative:uas rill\\forms\\teacherdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\adminTest\\Test1.cs",
+              "RelativeDocumentMoniker": "adminTest\\Test1.cs",
+              "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\adminTest\\Test1.cs",
+              "RelativeToolTip": "adminTest\\Test1.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAAIwGoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:13:01.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "UAS RILL\\Forms\\LoginForm.cs",
+              "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Forms\\LoginForm.cs",
+              "RelativeToolTip": "UAS RILL\\Forms\\LoginForm.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:02:44.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "UAS RILL\\Forms\\LoginForm.cs",
+              "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Forms\\LoginForm.cs [Design]",
+              "RelativeToolTip": "UAS RILL\\Forms\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:02:42.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminDashboardForm.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Forms\\AdminDashboardForm.cs",
+              "RelativeDocumentMoniker": "UAS RILL\\Forms\\AdminDashboardForm.cs",
+              "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Forms\\AdminDashboardForm.cs",
+              "RelativeToolTip": "UAS RILL\\Forms\\AdminDashboardForm.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAYwJAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:52:28.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminDashboardForm.cs [Design]",
+              "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Forms\\AdminDashboardForm.cs",
+              "RelativeDocumentMoniker": "UAS RILL\\Forms\\AdminDashboardForm.cs",
+              "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Forms\\AdminDashboardForm.cs [Design]",
+              "RelativeToolTip": "UAS RILL\\Forms\\AdminDashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:46:50.463Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Tugas.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Models\\Tugas.cs",
+              "RelativeDocumentMoniker": "UAS RILL\\Models\\Tugas.cs",
+              "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Models\\Tugas.cs",
+              "RelativeToolTip": "UAS RILL\\Models\\Tugas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:45:27.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UAS RILL\\Models\\User.cs",
+              "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Models\\User.cs",
+              "RelativeToolTip": "UAS RILL\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:45:18.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Program.cs",
+              "RelativeDocumentMoniker": "UAS RILL\\Program.cs",
+              "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Program.cs",
+              "RelativeToolTip": "UAS RILL\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:43:39.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentDashboardForm.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Forms\\StudentDashboardForm.cs",
+              "RelativeDocumentMoniker": "UAS RILL\\Forms\\StudentDashboardForm.cs",
+              "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Forms\\StudentDashboardForm.cs",
+              "RelativeToolTip": "UAS RILL\\Forms\\StudentDashboardForm.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAApwE8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:54:11.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeacherDashboardForm.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Forms\\TeacherDashboardForm.cs",
+              "RelativeDocumentMoniker": "UAS RILL\\Forms\\TeacherDashboardForm.cs",
+              "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Forms\\TeacherDashboardForm.cs",
+              "RelativeToolTip": "UAS RILL\\Forms\\TeacherDashboardForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:57:57.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentDashboardForm.cs [Design]",
+              "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Forms\\StudentDashboardForm.cs",
+              "RelativeDocumentMoniker": "UAS RILL\\Forms\\StudentDashboardForm.cs",
+              "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Forms\\StudentDashboardForm.cs [Design]",
+              "RelativeToolTip": "UAS RILL\\Forms\\StudentDashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:57:03.124Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TeacherDashboardForm.cs [Design]",
+              "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Forms\\TeacherDashboardForm.cs",
+              "RelativeDocumentMoniker": "UAS RILL\\Forms\\TeacherDashboardForm.cs",
+              "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Forms\\TeacherDashboardForm.cs [Design]",
+              "RelativeToolTip": "UAS RILL\\Forms\\TeacherDashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:56:54.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Submission.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Models\\Submission.cs",
+              "RelativeDocumentMoniker": "UAS RILL\\Models\\Submission.cs",
+              "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Models\\Submission.cs",
+              "RelativeToolTip": "UAS RILL\\Models\\Submission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:47:31.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JsonDatabase.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Data\\JsonDatabase.cs",
+              "RelativeDocumentMoniker": "UAS RILL\\Data\\JsonDatabase.cs",
+              "ToolTip": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\Data\\JsonDatabase.cs",
+              "RelativeToolTip": "UAS RILL\\Data\\JsonDatabase.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T18:01:20.728Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

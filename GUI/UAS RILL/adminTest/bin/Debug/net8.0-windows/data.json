@@ -1,0 +1,18 @@
+{
+  "Users": [
+    {
+      "Username": "guru1",
+      "Password": "1234",
+      "Nama": "Bu Guru",
+      "Role": "Admin"
+    },
+    {
+      "Username": "siswa1",
+      "Password": "1234",
+      "Nama": "Andi",
+      "Role": "Siswa"
+    }
+  ],
+  "DaftarTugas": [],
+  "KumpulanTugas": []
+}

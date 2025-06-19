@@ -1,0 +1,109 @@
+{
+  "Users": [
+    {
+      "Username": "guru1",
+      "Password": "1234",
+      "Nama": "Pak Budi",
+      "Role": "Guru"
+    },
+    {
+      "Username": "siswa1",
+      "Password": "1234",
+      "Nama": "Wahyurinata",
+      "Role": "Siswa"
+    },
+    {
+      "Username": "admin",
+      "Password": "admin123",
+      "Nama": "Administrator",
+      "Role": "Admin"
+    },
+    {
+      "Username": "wkwkwkw",
+      "Password": "danu12345",
+      "Nama": "Danu",
+      "Role": "Siswa"
+    },
+    {
+      "Username": "Renata",
+      "Password": "danu1234",
+      "Nama": "Wahyurinata",
+      "Role": "Siswa"
+    },
+    {
+      "Username": "siswa2",
+      "Password": "danuaja12",
+      "Nama": "wahyu",
+      "Role": "Guru"
+    },
+    {
+      "Username": "guru2",
+      "Password": "87654321",
+      "Nama": "danuRenata",
+      "Role": "Guru"
+    },
+    {
+      "Username": "Aww",
+      "Password": "1234",
+      "Nama": "Awan",
+      "Role": "Siswa"
+    }
+  ],
+  "DaftarTugas": [
+    {
+      "Id": "e51d0f11-d1f7-4725-8a4e-ef91ab8d7286",
+      "Judul": "Tugas Informatika",
+      "Deskripsi": "Dikerjakan , dikumulkan pdf",
+      "TanggalDeadline": "2025-06-08T01:44:36.936"
+    },
+    {
+      "Id": "2385f7c7-5b72-4f0f-9880-77997e5384b3",
+      "Judul": "Tugas Cuy",
+      "Deskripsi": "Jangan Nyoonto",
+      "TanggalDeadline": "2025-06-15T03:25:04.343"
+    },
+    {
+      "Id": "7796f5e8-0a59-4c03-a8bc-eb161c9adae8",
+      "Judul": "test",
+      "Deskripsi": "test",
+      "TanggalDeadline": "2025-06-20T00:23:15.4051972+07:00"
+    }
+  ],
+  "KumpulanTugas": [
+    {
+      "TugasId": "e51d0f11-d1f7-4725-8a4e-ef91ab8d7286",
+      "UsernameSiswa": "siswa1",
+      "FilePath": "C:\\Users\\dhanu\\OneDrive\\Documents\\Tugas Pendahuluan Modul 14.pdf",
+      "TanggalKumpul": "2025-06-17T01:45:59.6425296+07:00",
+      "Status": null
+    },
+    {
+      "TugasId": "e51d0f11-d1f7-4725-8a4e-ef91ab8d7286",
+      "UsernameSiswa": "Wahyu",
+      "FilePath": "C:\\Users\\dhanu\\OneDrive\\Documents\\Kelompok SD MUSIX.pdf",
+      "TanggalKumpul": "2025-06-17T03:06:31.6162485+07:00",
+      "Status": null
+    },
+    {
+      "TugasId": "2385f7c7-5b72-4f0f-9880-77997e5384b3",
+      "UsernameSiswa": "Wahyu",
+      "FilePath": "C:\\Users\\dhanu\\OneDrive\\Documents\\Tugas Jurnal Modul 14.pdf",
+      "TanggalKumpul": "2025-06-17T03:25:45.1792441+07:00",
+      "Status": null
+    },
+    {
+      "TugasId": "2385f7c7-5b72-4f0f-9880-77997e5384b3",
+      "UsernameSiswa": "Aww",
+      "FilePath": "C:\\Users\\akbar\\Downloads\\Awan dhani wahono.pdf",
+      "TanggalKumpul": "2025-06-17T13:53:29.3780353+07:00",
+      "Status": "Terlambat"
+    },
+    {
+      "TugasId": "e51d0f11-d1f7-4725-8a4e-ef91ab8d7286",
+      "UsernameSiswa": "Aww",
+      "FilePath": "C:\\Users\\akbar\\Downloads\\Laporan 13 Sistem Operasi.docx",
+      "TanggalKumpul": "2025-06-17T13:54:43.8216746+07:00",
+      "Status": "Terlambat"
+    }
+  ]
+}

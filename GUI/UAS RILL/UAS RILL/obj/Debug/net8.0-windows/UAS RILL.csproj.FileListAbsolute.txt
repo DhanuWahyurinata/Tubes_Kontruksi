@@ -1,0 +1,58 @@
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.exe
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.deps.json
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.runtimeconfig.json
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.dll
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.pdb
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS_RILL.Form1.resources
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.LoginForm.resources
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.StudentDashboardForm.resources
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.TeacherDashboardForm.resources
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.csproj.GenerateResource.cache
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.AssemblyInfoInputs.cache
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.AssemblyInfo.cs
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.csproj.CoreCompileInputs.cache
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.dll
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\refint\UAS RILL.dll
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.pdb
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.genruntimeconfig.cache
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\ref\UAS RILL.dll
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.AdminDashboardForm.resources
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.exe
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.deps.json
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.runtimeconfig.json
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.dll
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.pdb
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.AdminDashboardForm.resources
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.LoginForm.resources
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.StudentDashboardForm.resources
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.TeacherDashboardForm.resources
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.csproj.GenerateResource.cache
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.AssemblyInfoInputs.cache
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.AssemblyInfo.cs
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.csproj.CoreCompileInputs.cache
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.dll
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\refint\UAS RILL.dll
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.pdb
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.genruntimeconfig.cache
+C:\Users\akbar\Downloads\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\ref\UAS RILL.dll
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.exe
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.deps.json
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.runtimeconfig.json
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.dll
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.pdb
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.AdminDashboardForm.resources
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.LoginForm.resources
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.StudentDashboardForm.resources
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.TeacherDashboardForm.resources
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.csproj.GenerateResource.cache
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.AssemblyInfoInputs.cache
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.AssemblyInfo.cs
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.csproj.CoreCompileInputs.cache
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.dll
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\refint\UAS RILL.dll
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.pdb
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.genruntimeconfig.cache
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\ref\UAS RILL.dll
