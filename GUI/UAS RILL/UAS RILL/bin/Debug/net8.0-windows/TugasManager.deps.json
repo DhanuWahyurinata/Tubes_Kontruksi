@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "UAS RILL/1.0.0": {
+      "TugasManager/1.0.0": {
         "runtime": {
-          "UAS RILL.dll": {}
+          "TugasManager.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "UAS RILL/1.0.0": {
+    "TugasManager/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

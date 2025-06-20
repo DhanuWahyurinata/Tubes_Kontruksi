@@ -32,8 +32,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\UAS RILL.csproj": {
-                "projectPath": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\UAS RILL.csproj"
+              "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\TugasManager.csproj": {
+                "projectPath": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\TugasManager.csproj"
               }
             }
           }
@@ -83,12 +83,12 @@
         }
       }
     },
-    "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\UAS RILL.csproj": {
+    "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\TugasManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\UAS RILL.csproj",
-        "projectName": "UAS RILL",
-        "projectPath": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\UAS RILL.csproj",
+        "projectUniqueName": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\TugasManager.csproj",
+        "projectName": "TugasManager",
+        "projectPath": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\TugasManager.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
         "outputPath": "D:\\Kuliah\\Konstruksi Perangkat Lunak\\UAS RILL\\UAS RILL\\UAS RILL\\obj\\",
         "projectStyle": "PackageReference",

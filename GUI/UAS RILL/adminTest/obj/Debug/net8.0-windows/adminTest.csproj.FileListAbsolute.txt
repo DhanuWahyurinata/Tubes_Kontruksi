@@ -1,8 +1,5 @@
 D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\.msCoverageSourceRootsMapping_adminTest
 D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\testhost.dll
-D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\UAS RILL.deps.json
-D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\UAS RILL.runtimeconfig.json
-D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\UAS RILL.exe
 D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\testhost.exe
 D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -158,8 +155,6 @@ D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.
 D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
 D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\zh-Hant\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
 D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\UAS RILL.dll
-D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\UAS RILL.pdb
 D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\obj\Debug\net8.0-windows\adminTest.csproj.AssemblyReference.cache
 D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\obj\Debug\net8.0-windows\adminTest.GeneratedMSBuildEditorConfig.editorconfig
@@ -172,3 +167,8 @@ D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\obj\Debug\net8.
 D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\obj\Debug\net8.0-windows\adminTest.pdb
 D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\obj\Debug\net8.0-windows\adminTest.genruntimeconfig.cache
 D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\obj\Debug\net8.0-windows\ref\adminTest.dll
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\TugasManager.deps.json
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\TugasManager.runtimeconfig.json
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\TugasManager.exe
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\TugasManager.dll
+D:\Kuliah\Konstruksi Perangkat Lunak\UAS RILL\UAS RILL\adminTest\bin\Debug\net8.0-windows\TugasManager.pdb

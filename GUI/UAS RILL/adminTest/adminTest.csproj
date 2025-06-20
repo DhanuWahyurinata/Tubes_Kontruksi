@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UAS RILL\UAS RILL.csproj" />
+    <ProjectReference Include="..\UAS RILL\TugasManager.csproj" />
   </ItemGroup>
 
   <ItemGroup>
