@@ -4,14 +4,5 @@
     <Compile Update="Forms\AdminDashboardForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\LoginForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\StudentDashboardForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\TeacherDashboardForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>

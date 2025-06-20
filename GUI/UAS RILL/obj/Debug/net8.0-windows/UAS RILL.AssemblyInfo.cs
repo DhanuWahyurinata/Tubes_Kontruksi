@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UAS RILL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fde57e1eadb715f43f1a4f2b56b4b7ea0c7c012b")]
 [assembly: System.Reflection.AssemblyProductAttribute("UAS RILL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UAS RILL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

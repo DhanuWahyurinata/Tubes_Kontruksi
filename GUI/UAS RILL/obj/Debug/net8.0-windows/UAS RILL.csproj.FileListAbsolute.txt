@@ -18,3 +18,16 @@ C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.
 C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.genruntimeconfig.cache
 C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\ref\UAS RILL.dll
 C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.AdminDashboardForm.resources
+D:\Kuliah\Konstruksi Perangkat Lunak\Tubes_Kontruksi\GUI\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.AdminDashboardForm.resources
+D:\Kuliah\Konstruksi Perangkat Lunak\Tubes_Kontruksi\GUI\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.LoginForm.resources
+D:\Kuliah\Konstruksi Perangkat Lunak\Tubes_Kontruksi\GUI\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.StudentDashboardForm.resources
+D:\Kuliah\Konstruksi Perangkat Lunak\Tubes_Kontruksi\GUI\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.TeacherDashboardForm.resources
+D:\Kuliah\Konstruksi Perangkat Lunak\Tubes_Kontruksi\GUI\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.csproj.GenerateResource.cache
+D:\Kuliah\Konstruksi Perangkat Lunak\Tubes_Kontruksi\GUI\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kuliah\Konstruksi Perangkat Lunak\Tubes_Kontruksi\GUI\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.AssemblyInfoInputs.cache
+D:\Kuliah\Konstruksi Perangkat Lunak\Tubes_Kontruksi\GUI\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.AssemblyInfo.cs
+D:\Kuliah\Konstruksi Perangkat Lunak\Tubes_Kontruksi\GUI\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.csproj.CoreCompileInputs.cache
+D:\Kuliah\Konstruksi Perangkat Lunak\Tubes_Kontruksi\GUI\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.sourcelink.json
+D:\Kuliah\Konstruksi Perangkat Lunak\Tubes_Kontruksi\GUI\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.dll
+D:\Kuliah\Konstruksi Perangkat Lunak\Tubes_Kontruksi\GUI\UAS RILL\obj\Debug\net8.0-windows\refint\UAS RILL.dll
+D:\Kuliah\Konstruksi Perangkat Lunak\Tubes_Kontruksi\GUI\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.pdb
