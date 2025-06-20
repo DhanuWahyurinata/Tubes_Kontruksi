@@ -1,0 +1,40 @@
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.exe
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.deps.json
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.runtimeconfig.json
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.dll
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.pdb
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS_RILL.Form1.resources
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.LoginForm.resources
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.StudentDashboardForm.resources
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.TeacherDashboardForm.resources
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.csproj.GenerateResource.cache
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.AssemblyInfoInputs.cache
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.AssemblyInfo.cs
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.csproj.CoreCompileInputs.cache
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.dll
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\refint\UAS RILL.dll
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.pdb
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.genruntimeconfig.cache
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\ref\UAS RILL.dll
+C:\Users\dhanu\source\repos\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.AdminDashboardForm.resources
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.exe
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.deps.json
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.runtimeconfig.json
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.dll
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\bin\Debug\net8.0-windows\UAS RILL.pdb
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS_RILL.Form1.resources
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.AdminDashboardForm.resources
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.LoginForm.resources
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.StudentDashboardForm.resources
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\TugasManager.Forms.TeacherDashboardForm.resources
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.csproj.GenerateResource.cache
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.AssemblyInfoInputs.cache
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.AssemblyInfo.cs
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.csproj.CoreCompileInputs.cache
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.dll
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\refint\UAS RILL.dll
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.pdb
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\UAS RILL.genruntimeconfig.cache
+C:\Proyek\UAS RILL\UAS RILL\UAS RILL\obj\Debug\net8.0-windows\ref\UAS RILL.dll
