@@ -1,0 +1,5 @@
+A:\UAS RILL\UAS RILL\Testing\obj\Debug\net8.0\Testing.csproj.AssemblyReference.cache
+A:\UAS RILL\UAS RILL\Testing\obj\Debug\net8.0\Testing.GeneratedMSBuildEditorConfig.editorconfig
+A:\UAS RILL\UAS RILL\Testing\obj\Debug\net8.0\Testing.AssemblyInfoInputs.cache
+A:\UAS RILL\UAS RILL\Testing\obj\Debug\net8.0\Testing.AssemblyInfo.cs
+A:\UAS RILL\UAS RILL\Testing\obj\Debug\net8.0\Testing.csproj.CoreCompileInputs.cache
